@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario 02</title>
+</head>
+
+<body>
+    <p>SISTEMA DE GESTÃO ACADÊMICA</p>
+    <h4>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h4>
+
+    <div>
+        <form>
+            <div id="logi">
+                <label for="log">Login</label>
+                <input type="text" name="log">
+            </div>
+            <div id="sen">
+                <label for="pass">Senha</label>
+                <input type="text" name="pass">
+            </div>
+            <div id="sta">
+                <label for="stats">Status</label>
+                <select name="stats" id="stats">
+                    <option>inativo</option>
+                    <option>ativo</option>
+                </select>
+            </div>
+            <div id="tipe">
+                <label id="tip">tipo</label>
+                <input type="checkbox" name="tec">
+                <label for="tec">Técnico</label>
+                <input type="checkbox" name="prof">
+                <label for="tec">Professor</label>
+                <input type="checkbox" name="xiru">
+                <label for="xiru">Aluno</label>
+            </div>
+            <div id="dat">
+                <label for="date">Data criação</label>
+                <input type= "date" name="date">
+            </div>
+            <div id="per">
+                <label id="perf">Perfil</label>
+                <input type="checkbox" name="con">
+                <label for="con">Convidado</label>
+                <input type="checkbox" name="adm">
+                <label for="adm">Administrador</label>
+            </div>
+            <div id="ps">
+                   <label for="obs">Observações</label>
+                   <textarea name="obs" cols="30" rows="5"></textarea>
+            </div>
+            <div id="mod">
+                <label id="mods">Módulos</label>
+                <input type="checkbox" name="compra">
+                <label for="compra">Compras</label>
+                <input type="checkbox" name="bibli">
+                <label for="bibli">Biblioteca</label>
+                <input type="checkbox" name="acad">
+                <label for="acad">Acadêmico</label>
+                <input type="checkbox" name="Documentação">
+                <label for="Documentação">Documentação</label>
+                <input type="checkbox" name="rh">
+                <label for="rh">Recursos humanos</label>
+            </div>
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Excluir</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+p{
+    background-color: rgb(177, 136, 0);
+    padding: 4px;
+}
+
+#logi label{
+    padding-right: 195px;
+}
+#sen{
+    margin-top: 10px;
+}
+#sen label{
+    padding-right: 195px;
+}
+
+#sta{
+    margin-top: 10px;
+}
+#sta label{
+    padding-right: 195px;
+}
+
+#tipe{
+    margin-top: 10px;
+}
+#tip{
+    padding-right: 205px;
+}
+
+#dat{
+    margin-top: 10px;
+}
+#dat label {
+    padding-right: 150px;
+}
+
+#per{
+    margin-top: 10px;
+}
+#perf{
+    padding-right: 195px;
+}
+
+#ps{
+    margin-top: 10px;
+}
+#ps label{
+    margin-right: 145px;
+}
+
+#mod{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#mods{
+    padding-right: 165px;
+}
